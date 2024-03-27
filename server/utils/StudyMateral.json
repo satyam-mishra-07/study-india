@@ -1,0 +1,641 @@
+
+[
+    {
+        "userClass": 1,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Alphabet Learning",
+                "content": "This section covers the basics of the English alphabet. Students will learn to recognize and pronounce each letter of the alphabet.",
+                "resources": [
+                    {
+                        "name": "Alphabet Song",
+                        "link": "https://example.com/alphabet-song"
+                    },
+                    {
+                        "name": "Letter Tracing Worksheets",
+                        "link": "https://example.com/letter-tracing-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Introduction to Numbers",
+                "content": "In this unit, students will learn to identify numbers from 1 to 10, count objects, and perform basic addition and subtraction.",
+                "resources": [
+                    {
+                        "name": "Number Flashcards",
+                        "link": "https://example.com/number-flashcards"
+                    },
+                    {
+                        "name": "Counting Games",
+                        "link": "https://example.com/counting-games"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "Introduction to Nature",
+                "content": "Students will explore the world around them, learning about different animals, plants, and basic natural phenomena.",
+                "resources": [
+                    {
+                        "name": "Animal Sounds Quiz",
+                        "link": "https://example.com/animal-sounds-quiz"
+                    },
+                    {
+                        "name": "Plant Identification Activity",
+                        "link": "https://example.com/plant-identification"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "My Family and Community",
+                "content": "This unit focuses on introducing students to their family members, community helpers, and basic social interactions.",
+                "resources": [
+                    {
+                        "name": "Family Tree Template",
+                        "link": "https://example.com/family-tree-template"
+                    },
+                    {
+                        "name": "Community Helper Flashcards",
+                        "link": "https://example.com/community-helper-flashcards"
+                    }
+                ]
+            },
+            {
+                "name": "Value Education",
+                "title": "Respecting Others",
+                "content": "Students will learn the importance of respecting others, being kind, and showing empathy towards their peers and elders.",
+                "resources": [
+                    {
+                        "name": "Kindness Poster Activity",
+                        "link": "https://example.com/kindness-poster-activity"
+                    },
+                    {
+                        "name": "Story: The Golden Rule",
+                        "link": "https://example.com/the-golden-rule-story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userClass": 2,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Reading Comprehension",
+                "content": "Students will learn to read simple sentences and short stories, developing basic comprehension skills.",
+                "resources": [
+                    {
+                        "name": "Short Story: The Rabbit and the Tortoise",
+                        "link": "https://example.com/rabbit-tortoise-story"
+                    },
+                    {
+                        "name": "Reading Comprehension Worksheets",
+                        "link": "https://example.com/reading-comprehension-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Basic Arithmetic Operations",
+                "content": "This unit covers addition, subtraction, multiplication, and division of single-digit numbers.",
+                "resources": [
+                    {
+                        "name": "Math Manipulatives",
+                        "link": "https://example.com/math-manipulatives"
+                    },
+                    {
+                        "name": "Basic Operations Worksheets",
+                        "link": "https://example.com/basic-operations-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "Living and Non-living Things",
+                "content": "Students will distinguish between living and non-living things, learning about characteristics of living organisms.",
+                "resources": [
+                    {
+                        "name": "Living vs Non-living Sorting Activity",
+                        "link": "https://example.com/living-nonliving-sorting"
+                    },
+                    {
+                        "name": "Living Things Video",
+                        "link": "https://example.com/living-things-video"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "My Country and Its Symbols",
+                "content": "This unit introduces students to national symbols, flag, and important landmarks of their country.",
+                "resources": [
+                    {
+                        "name": "National Symbols Coloring Pages",
+                        "link": "https://example.com/national-symbols-coloring"
+                    },
+                    {
+                        "name": "Flag Making Activity",
+                        "link": "https://example.com/flag-making-activity"
+                    }
+                ]
+            },
+            {
+                "name": "Value Education",
+                "title": "Sharing and Caring",
+                "content": "Students will learn the values of sharing, caring for others, and being compassionate.",
+                "resources": [
+                    {
+                        "name": "Sharing Circle Activity",
+                        "link": "https://example.com/sharing-circle-activity"
+                    },
+                    {
+                        "name": "Story: The Boy Who Shared",
+                        "link": "https://example.com/boy-who-shared-story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userClass": 3,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Sentence Formation",
+                "content": "Students will learn to construct simple sentences and understand the basic structure of sentences.",
+                "resources": [
+                    {
+                        "name": "Sentence Building Game",
+                        "link": "https://example.com/sentence-building-game"
+                    },
+                    {
+                        "name": "Sentence Formation Worksheets",
+                        "link": "https://example.com/sentence-formation-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Multiplication and Division",
+                "content": "This unit focuses on multiplication and division of two-digit numbers and introduces the concept of multiplication tables.",
+                "resources": [
+                    {
+                        "name": "Multiplication Tables Chart",
+                        "link": "https://example.com/multiplication-tables-chart"
+                    },
+                    {
+                        "name": "Multiplication Practice Sheets",
+                        "link": "https://example.com/multiplication-practice-sheets"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "States of Matter",
+                "content": "Students will learn about the three states of matter: solid, liquid, and gas, and their properties.",
+                "resources": [
+                    {
+                        "name": "States of Matter Experiment",
+                        "link": "https://example.com/states-of-matter-experiment"
+                    },
+                    {
+                        "name": "States of Matter Quiz",
+                        "link": "https://example.com/states-of-matter-quiz"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "Geography - Landforms",
+                "content": "This unit introduces different landforms such as mountains, rivers, valleys, and plains.",
+                "resources": [
+                    {
+                        "name": "Landforms Flashcards",
+                        "link": "https://example.com/landforms-flashcards"
+                    },
+                    {
+                        "name": "Landforms Diagram Activity",
+                        "link": "https://example.com/landforms-diagram-activity"
+                    }
+                ]
+            },
+            {
+                "name": "Value Education",
+                "title": "Responsibility",
+                "content": "Students will understand the importance of taking responsibility for their actions and behaving ethically in various situations.",
+                "resources": [
+                    {
+                        "name": "Responsibility Chart Activity",
+                        "link": "https://example.com/responsibility-chart-activity"
+                    },
+                    {
+                        "name": "Story: The Ant and the Grasshopper",
+                        "link": "https://example.com/ant-grasshopper-story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userClass": 4,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Grammar Basics",
+                "content": "Students will learn about parts of speech, including nouns, verbs, adjectives, and adverbs.",
+                "resources": [
+                    {
+                        "name": "Parts of Speech Song",
+                        "link": "https://example.com/parts-of-speech-song"
+                    },
+                    {
+                        "name": "Grammar Worksheets",
+                        "link": "https://example.com/grammar-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Fractions and Decimals",
+                "content": "This unit introduces fractions, decimals, and their operations such as addition, subtraction, multiplication, and division.",
+                "resources": [
+                    {
+                        "name": "Fraction Manipulatives",
+                        "link": "https://example.com/fraction-manipulatives"
+                    },
+                    {
+                        "name": "Decimal Practice Sheets",
+                        "link": "https://example.com/decimal-practice-sheets"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "Solar System",
+                "content": "Students will explore the solar system, learn about planets, moons, and other celestial bodies.",
+                "resources": [
+                    {
+                        "name": "Solar System Model Project",
+                        "link": "https://example.com/solar-system-model-project"
+                    },
+                    {
+                        "name": "Planet Facts Quiz",
+                        "link": "https://example.com/planet-facts-quiz"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "History - Ancient Civilizations",
+                "content": "This unit covers ancient civilizations such as Mesopotamia, Egypt, Indus Valley, and China.",
+                "resources": [
+                    {
+                        "name": "Ancient Civilization Timeline",
+                        "link": "https://example.com/ancient-civilization-timeline"
+                    },
+                    {
+                        "name": "Virtual Tours of Ancient Sites",
+                        "link": "https://example.com/virtual-tours-ancient-sites"
+                    }
+                ]
+            },
+            {
+                "name": "Value Education",
+                "title": "Honesty and Integrity",
+                "content": "Students will understand the importance of honesty, integrity, and ethical behavior in personal and social life.",
+                "resources": [
+                    {
+                        "name": "Integrity Role-Play Activity",
+                        "link": "https://example.com/integrity-role-play-activity"
+                    },
+                    {
+                        "name": "Story: The Boy Who Cried Wolf",
+                        "link": "https://example.com/boy-cried-wolf-story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userClass": 5,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Reading and Comprehension",
+                "content": "Students will develop advanced reading skills and comprehension strategies for longer texts and passages.",
+                "resources": [
+                    {
+                        "name": "Reading Comprehension Strategies",
+                        "link": "https://example.com/reading-comprehension-strategies"
+                    },
+                    {
+                        "name": "Literature Circle Guides",
+                        "link": "https://example.com/literature-circle-guides"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Geometry",
+                "content": "This unit covers geometric shapes, angles, symmetry, and their properties.",
+                "resources": [
+                    {
+                        "name": "Geometry Toolkit",
+                        "link": "https://example.com/geometry-toolkit"
+                    },
+                    {
+                        "name": "Geometric Shapes Worksheets",
+                        "link": "https://example.com/geometric-shapes-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "Ecosystems and Food Webs",
+                "content": "Students will learn about ecosystems, food chains, and the interdependence of living organisms.",
+                "resources": [
+                    {
+                        "name": "Ecosystem Simulation Game",
+                        "link": "https://example.com/ecosystem-simulation-game"
+                    },
+                    {
+                        "name": "Food Web Diagrams",
+                        "link": "https://example.com/food-web-diagrams"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "Civics - Government and Citizenship",
+                "content": "This unit introduces the concepts of government, citizenship, democracy, and rights and responsibilities of citizens.",
+                "resources": [
+                    {
+                        "name": "Government Structure Chart",
+                        "link": "https://example.com/government-structure-chart"
+                    },
+                    {
+                        "name": "Citizenship Quiz",
+                        "link": "https://example.com/citizenship-quiz"
+                    }
+                ]
+            },
+            {
+                "name": "Value Education",
+                "title": "Empathy and Compassion",
+                "content": "Students will understand the importance of empathy, compassion, and kindness towards others.",
+                "resources": [
+                    {
+                        "name": "Empathy Role-Play Scenarios",
+                        "link": "https://example.com/empathy-role-play-scenarios"
+                    },
+                    {
+                        "name": "Story: The Giving Tree",
+                        "link": "https://example.com/giving-tree-story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userClass": 6,
+        "subjects": [
+            {
+                "name": "English",
+                "title": "Writing Skills",
+                "content": "Students will develop writing skills including narrative, descriptive, expository, and persuasive writing.",
+                "resources": [
+                    {
+                        "name": "Writing Prompts",
+                        "link": "https://example.com/writing-prompts"
+                    },
+                    {
+                        "name": "Writing Process Worksheets",
+                        "link": "https://example.com/writing-process-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Maths",
+                "title": "Algebra",
+                "content": "This unit introduces algebraic expressions, equations, and basic operations with algebraic terms.",
+                "resources": [
+                    {
+                        "name": "Algebra Tiles",
+                        "link": "https://example.com/algebra-tiles"
+                    },
+                    {
+                        "name": "Algebraic Expressions Worksheets",
+                        "link": "https://example.com/algebraic-expressions-worksheets"
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "title": "Cells and Microorganisms",
+                "content": "Students will learn about the structure and function of cells, microorganisms, and their role in ecosystems.",
+                "resources": [
+                    {
+                        "name": "Cell Structure Model",
+                        "link": "https://example.com/cell-structure-model"
+                    },
+                    {
+                        "name": "Microscope Exploration Activity",
+                        "link": "https://example.com/microscope-exploration-activity"
+                    }
+                ]
+            },
+            {
+                "name": "Social Science",
+                "title": "History - Ancient World Civilizations",
+                "content": "This unit covers ancient civilizations such as Greece, Rome, and the Byzantine Empire.",
+                "resources": [
+                    {
+                        "name": "Ancient Civilization Artifacts Gallery",
+                        "link": "https://example.com/ancient-civilization-artifacts-gallery"
+                    },
+                    {
+                        "name": "Virtual Tours of Ancient Cities",
+                        "link": "https: //example.com/virtual-tours-ancient-cities"}
+                    ]
+                },
+                {
+                    "name": "Value Education",
+                    "title": "Resilience and Perseverance",
+                    "content": "Students will learn to develop resilience, cope with challenges, and persevere in the face of obstacles.",
+                    "resources": [
+                        {
+                            "name": "Resilience Building Activities",
+                            "link": "https://example.com/resilience-building-activities"
+                        },
+                        {
+                            "name": "Story: The Little Engine That Could",
+                            "link": "https://example.com/little-engine-could-story"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "userClass": 7,
+            "subjects": [
+                {
+                    "name": "English",
+                    "title": "Literature Analysis",
+                    "content": "Students will analyze literary texts including novels, poems, and short stories, exploring themes, characters, and literary devices.",
+                    "resources": [
+                        {
+                            "name": "Literary Analysis Guides",
+                            "link": "https://example.com/literary-analysis-guides"
+                        },
+                        {
+                            "name": "Novel Study Worksheets",
+                            "link": "https://example.com/novel-study-worksheets"
+                        }
+                    ]
+                },
+                {
+                    "name": "Maths",
+                    "title": "Geometry and Measurement",
+                    "content": "This unit covers advanced topics in geometry including angles, polygons, and measurement conversions.",
+                    "resources": [
+                        {
+                            "name": "Geometry Proofs Practice",
+                            "link": "https://example.com/geometry-proofs-practice"
+                        },
+                        {
+                            "name": "Measurement Conversion Charts",
+                            "link": "https://example.com/measurement-conversion-charts"
+                        }
+                    ]
+                },
+                {
+                    "name": "Science",
+                    "title": "Ecology and Environmental Science",
+                    "content": "Students will study ecosystems, biodiversity, environmental issues, and sustainable practices.",
+                    "resources": [
+                        {
+                            "name": "Ecological Footprint Calculator",
+                            "link": "https://example.com/ecological-footprint-calculator"
+                        },
+                        {
+                            "name": "Environmental Impact Projects",
+                            "link": "https://example.com/environmental-impact-projects"
+                        }
+                    ]
+                },
+                {
+                    "name": "Social Science",
+                    "title": "World History",
+                    "content": "This unit explores major events, civilizations, and developments in world history from ancient times to the present.",
+                    "resources": [
+                        {
+                            "name": "World History Timeline",
+                            "link": "https://example.com/world-history-timeline"
+                        },
+                        {
+                            "name": "Historical Document Analysis",
+                            "link": "https://example.com/historical-document-analysis"
+                        }
+                    ]
+                },
+                {
+                    "name": "Value Education",
+                    "title": "Global Citizenship",
+                    "content": "Students will learn about global issues, cultural diversity, and their role as responsible global citizens.",
+                    "resources": [
+                        {
+                            "name": "Global Issues Discussions",
+                            "link": "https://example.com/global-issues-discussions"
+                        },
+                        {
+                            "name": "Cultural Awareness Activities",
+                            "link": "https://example.com/cultural-awareness-activities"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "userClass": 8,
+            "subjects": [
+                {
+                    "name": "English",
+                    "title": "Creative Writing",
+                    "content": "Students will explore various forms of creative writing including poetry, short stories, and scripts.",
+                    "resources": [
+                        {
+                            "name": "Creative Writing Prompts",
+                            "link": "https://example.com/creative-writing-prompts"
+                        },
+                        {
+                            "name": "Scriptwriting Templates",
+                            "link": "https://example.com/scriptwriting-templates"
+                        }
+                    ]
+                },
+                {
+                    "name": "Maths",
+                    "title": "Algebra and Trigonometry",
+                    "content": "This unit covers advanced algebraic concepts such as functions, equations, and trigonometric identities.",
+                    "resources": [
+                        {
+                            "name": "Advanced Algebra Problems",
+                            "link": "https://example.com/advanced-algebra-problems"
+                        },
+                        {
+                            "name": "Trigonometry Practice Exercises",
+                            "link": "https://example.com/trigonometry-practice-exercises"
+                        }
+                    ]
+                },
+                {
+                    "name": "Science",
+                    "title": "Physics - Motion and Energy",
+                    "content": "Students will study the principles of motion, energy, forces, and their applications in real-world scenarios.",
+                    "resources": [
+                        {
+                            "name": "Physics Simulations",
+                            "link": "https://example.com/physics-simulations"
+                        },
+                        {
+                            "name": "Energy Conservation Projects",
+                            "link": "https://example.com/energy-conservation-projects"
+                        }
+                    ]
+                },
+                {
+                    "name": "Social Science",
+                    "title": "Civics and Government",
+                    "content": "This unit explores the structure and functions of government, political systems, and civic responsibilities.",
+                    "resources": [
+                        {
+                            "name": "Political Systems Comparison Chart",
+                            "link": "https://example.com/political-systems-comparison-chart"
+                        },
+                        {
+                            "name": "Debates and Mock Elections",
+                            "link": "https://example.com/debates-mock-elections"
+                        }
+                    ]
+                },
+                {
+                    "name": "Value Education",
+                    "title": "Ethical Decision Making",
+                    "content": "Students will learn to make ethical decisions by considering various factors such as consequences, moral principles, and ethical dilemmas. They will explore case studies, engage in discussions, and practice ethical reasoning to develop critical thinking skills and ethical judgment.",
+                     "resources": [{
+                        "name": "Ethical Dilemma Scenarios",
+                        "link": "https://example.com/ethical-dilemma-scenarios"
+                    },
+                    {
+                        "name": "Case Studies in Ethics",
+                        "link": "https://example.com/case-studies-ethics"
+                    }
+                ]
+            }
+        ]
+    }
+]
