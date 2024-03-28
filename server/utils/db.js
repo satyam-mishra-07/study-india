@@ -1,12 +1,10 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
 
 
-const uri = process.env.MONGO_URI;
-
-const connectDB = async() => {
+const connectDB = async(uri) => {
     try {
+        // console.log("Uri is", uri);
         await mongoose.connect(uri)
         console.log("Connection to Database Successfull")
     } catch (error) {
