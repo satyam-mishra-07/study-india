@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Home = () => {
   return (
-    <div className='w-full h-screen flex p-9 pt-12'>
+    <div className='w-full h-screen flex p-9 pt-20'>
       <div className="home w-2/3 h-full pt-24">
         <h1 className='text-6xl'>Unlocking Education:</h1>
         <h2 className='text-6xl'>Your Free Learning Journey</h2>
