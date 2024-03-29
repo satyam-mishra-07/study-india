@@ -5,6 +5,26 @@
 :root {
     --primary-color: #FBD601;
 }
+
+/*? Toastify CSS */
+
+/* custom-toast.css */
+.Toastify__toast-container {
+  font-size: 14px; /* Adjust font size */
+}
+
+.Toastify__toast {
+  min-height: 40px; /* Adjust height */
+  padding: 10px 20px; /* Adjust padding */
+}
+
+.toastBody {
+  font-size: 1.2rem !important;
+}
+.toastProgress {
+  background: #333F48 !important;
+}
+
 .home h1{
   display: flex;
   font-weight: 900;

@@ -1,8 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import loginImage from "../assets/hero-img.jpg";
 import { useAuth } from "../store/auth";
 import { useNavigate } from "react-router-dom";
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export default function Register() {
   const [user, setUser] = useState({
@@ -47,14 +47,14 @@ export default function Register() {
           age: "",
           password: "",
         });
-
+        toast.success("User Registered");
         navigate("/");
-        alert("User Registered");
       } else {
-        alert(res_data.message);
+        toast.error(res_data.message);
       }
       console.log(response);
     } catch (error) {
+      toast.error(`Internal Server Error`);
       console.log(`Register Error: ${error}`);
     }
   };
