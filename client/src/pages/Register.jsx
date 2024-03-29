@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import loginImage from "../assets/hero-img.jpg";
 
 export default function Register() {
