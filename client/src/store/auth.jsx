@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { createContext, useContext, useState } from "react";
+
+export const AuthContext = createContext();
 
 export default function AuthProvider({ children }) {
   const [token, setToken] = useState(localStorage.getItem("token"));
@@ -59,7 +61,7 @@ export default function AuthProvider({ children }) {
   };
 
   return (
-    <AuthProvider.Provider>
+    <AuthContext.Provider
       value=
       {{
         token,
@@ -70,9 +72,9 @@ export default function AuthProvider({ children }) {
         studyData,
         getUser,
         user,
-      }}
+      }}>
       {children}
-    </AuthProvider.Provider>
+    </AuthContext.Provider>
   );
 }
 
