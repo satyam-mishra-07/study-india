@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import Studymaterial from "./pages/Studymaterial";
+import ContactForm from "./pages/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/study" element={<Studymaterial/>} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login/>}/>
+            <Route path="/contact" element={<ContactForm/>}/>
           </Routes>
         </BrowserRouter>
       </div>
