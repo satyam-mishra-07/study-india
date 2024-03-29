@@ -1,6 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { useAuth } from "../store/auth";
 
 export default function Navbar() {
+  const { isLoggedIn } = useAuth();
   return (
     <nav className="fixed flex w-full px-11 py-4 justify-between items-center">
       <div className="logo">
@@ -10,13 +13,34 @@ export default function Navbar() {
       </div>
       <div className="navItems">
         <ul className="flex items-center gap-6 text-lg font-semibold">
-          <li>Home</li>
-          <li>Practice</li>
-          <li>Contact</li>
-          <li>About</li>
-          <li className="border-2 border-[#FBD601] rounded-full px-4">
-            Sign In
+          <li>
+            <NavLink to="/">Home</NavLink>
           </li>
+          <li>
+            <NavLink to="/">Practice</NavLink>
+          </li>
+          <li>
+            <NavLink to="/">Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to="/">About</NavLink>
+          </li>
+          {isLoggedIn ? (
+            <>
+              <li className="border-2 border-[#FBD601] rounded-full px-4">
+                <NavLink to="/logout">Log Out</NavLink>
+              </li>
+            </>
+          ) : (
+            <>
+              <li className="border-2 border-[#FBD601] rounded-full px-4">
+                <NavLink to="/login">Log In</NavLink>
+              </li>
+              <li className="border-2 border-[#FBD601] rounded-full px-4">
+                <NavLink to="/register">Register</NavLink>
+              </li>
+            </>
+          )}
         </ul>
       </div>
     </nav>
