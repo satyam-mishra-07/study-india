@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
     require: true,
   },
   phone: {
-    type: Number,
+    type: String,
     require: true,
   },
   password: {
@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
     require: true,
   },
   age: {
-    type: Number,
+    type: String,
     require: true,
   },
   isAdmin: {

@@ -22,13 +22,11 @@ const signupSchema = z.object({
     .string({ required_error: "Password is required" })
     .min(8, { message: "Password must be atleast of 8 characters" })
     .max(1024, { message: "Password must not be more than 1024 characters" }),
-  userClass: z
-    .string({ required_error: "User Class is required" })
-    .trim(),
+  userClass: z.string({ required_error: "User Class is required" }).trim(),
   age: z
-    .number({ required_error: "Age is required" }) 
-    .int()
-    .min(1, { message: "Age must be atleast of 1" })
+    .string({ required_error: "Phone is required" })
+    .trim()
+    .min(1, { message: "Age must be atleast of 1" }),
 });
 
 const signinSchema = z.object({

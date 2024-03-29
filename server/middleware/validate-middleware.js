@@ -1,18 +1,20 @@
-const validate = (Schema) => async (req, res, next) => {
-    try {
-      const parsedBody = await Schema.parseAsync(req.body);
-      req.body = parsedBody;
-      return next();
-    } catch (err) {
-      console.log(err);
-      const status = 404;
-      const message = err.errors[0].message;
-  
-      const error = { status, message };
-  
-      next(error);
-      // res.status(400).json({ message: message });
-    }
-  };
+const validate = (Schema) => {
+    return async (req, res, next) => {
+        try {
+            const parsedBody = await Schema.parseAsync(req.body);
+            req.body = parsedBody;
+            next();
+        } catch (err) {
+            console.error(err);
+            const status = 400;
+            const message = err.errors[0].message;
+            const error = { status, message };
+            next(error);
+        }
+    };
+};
+
+module.exports = validate;
+
   
   module.exports = validate;
