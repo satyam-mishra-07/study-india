@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="fixed flex w-full px-11 py-4 justify-between items-center">
       <div className="logo">
         <h2 className="font-bold text-4xl text-[var(--primary-color)]">
-          Study India
+          <NavLink to="/">Study India</NavLink>
         </h2>
       </div>
       <div className="navItems">
