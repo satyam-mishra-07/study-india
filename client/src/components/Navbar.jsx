@@ -17,10 +17,10 @@ export default function Navbar() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/">Practice</NavLink>
+            <NavLink to="/study">Practice</NavLink>
           </li>
           <li>
-            <NavLink to="/">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
             <NavLink to="/">About</NavLink>
